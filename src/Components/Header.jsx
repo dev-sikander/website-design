@@ -1,0 +1,194 @@
+"use client"
+import Link from 'next/link';
+import React from 'react'
+
+import GredientBtn from './GredientBtn';
+import SimpleBtn from './SimpleBtn';
+import SimpleBtnTwo from './SimpleBtnTwo';
+
+function Header() {
+
+    const [open, setOpen] = React.useState(false);
+
+    return (
+        <>
+            <header className="relative bg-transparent z-40">
+                <div className="px-[10px] sm:px-[30px]">
+                    <div className="flex justify-between items-center py-6 lg:justify-start">
+                        <div className="flex justify-start lg:w-0 lg:flex-1">
+                            <Link href="#">
+                                <span className="text-[30px] font-bold poppins text-white">logo</span>
+                            </Link>
+
+                        </div>
+                        <div className="-mr-2 -my-2 lg:hidden">
+                            <button
+                                type="button"
+                                className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                                onClick={() => setOpen(!open)}
+                            >
+                                <span className="sr-only">Open menu</span>
+                                {/* Heroicon name: outline/menu */}
+                                <svg
+                                    className="h-6 w-6"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M4 6h16M4 12h16M4 18h16"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <nav className='flex items-center space-x-7 xl:space-x-20 display_block'>
+                            <ul className='flex items-center space-x-6 xl:space-x-10'>
+                                <li>
+                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                        About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                        Services
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                        FAQ
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                        Pricing/Packages
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                        Contact
+                                    </Link>
+                                </li>
+                            </ul>
+                            <ul className='flex itme-center space-x-2 '>
+                                <li>
+                                    <GredientBtn
+                                        BtnTxt="Start Live Chat"
+                                    />
+                                </li>
+                                <li>
+                                    <SimpleBtn
+                                        simpleTxt="Book Demo"
+                                    />
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    {/* Mibile Menu */}
+                    <div
+                        className={
+                            open
+                                ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
+                                : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                        }
+                    >
+                        <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                            <div className="pt-5 pb-6 px-5 relative z-[9999999]">
+                                <div className="flex items-center justify-between">
+                                    <Link href="#">
+                                        <span className="text-[30px] font-bold poppins text-black">logo</span>
+                                    </Link>
+                                    <div className="-mr-2">
+                                        <button
+                                            type="button"
+                                            className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                                            onClick={() => setOpen(!open)}
+                                        >
+                                            <span className="sr-only">Close menu</span>
+                                            {/* Heroicon name: outline/x */}
+                                            <svg
+                                                className="h-6 w-6"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke="currentColor"
+                                                aria-hidden="true"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth={2}
+                                                    d="M6 18L18 6M6 6l12 12"
+                                                />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div className="mt-6">
+                                    <nav className=''>
+                                        <ul className='space-y-5'>
+                                            <li>
+                                                <Link href="#" className="text-[16px] font-medium text-black hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                                    Home
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="#" className="text-[16px] font-medium text-black hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                                    About
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="#" className="text-[16px] font-medium text-black hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                                    Services
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="#" className="text-[16px] font-medium text-black hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                                    FAQ
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="#" className="text-[16px] font-medium text-black hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                                    Pricing/Packages
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="#" className="text-[16px] font-medium text-black hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                                    Contact
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                        <ul className='space-y-5 mt-4'>
+                                            <li>
+                                                <GredientBtn
+                                                    BtnTxt="Start Live Chat"
+                                                />
+                                            </li>
+                                            <li>
+                                                <SimpleBtnTwo
+                                                    simpleTxt="Book Demo"
+                                                />
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </>
+    )
+}
+
+export default Header

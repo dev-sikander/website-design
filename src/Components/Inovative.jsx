@@ -21,30 +21,41 @@ export const Inovative = () => {
                             <h3 className='text-[25px] md:text-[40px] font-light sm:mb-3'><span className='gilroy-b'>Innovative</span> Services & Exceptional <span className='gilroy-b'>Results</span></h3>
                             <p className='text-black text-[13px] sm:text-[15px] font-light max-w-[700px]'>Our commitment to delivering innovative solutions and consistently surpassing expectations
                                 make Web Design Hub an exclusive choice</p>
-
-                            <div className="flex flex-wra xl:flex-nowrap justify-around space-y-6 space-x-4 mt-10">
-                                <div className='mt-6'>
-                                    <Image src={Inovative1} />
-                                    <p className='text-[20px] gilroy text-center mt-3 font-light'>Creative Excellence</p>
-                                </div>
-                                <div>
-                                    <Image src={Inovative2} />
-                                    <p className='text-[20px] gilroy text-center mt-3 font-light'>Customized Solutions</p>
-                                </div>
-                                <div>
-                                    <Image src={Inovative3} />
-                                    <p className='text-[20px] gilroy text-center mt-3 font-light'>Responsive Design</p>
-                                </div>
-                                <div>
-                                    <Image src={Inovative4} />
-                                    <p className='text-[20px] gilroy text-center mt-3 font-light'>On-Time Delivery</p>
-                                </div>
-                                <div>
-                                    <Image src={Inovative5} />
-                                    <p className='text-[20px] gilroy text-center mt-3 font-light'>Affordable Pricing</p>
-                                </div>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-12 md:grid-cols-5 gap-y-5 md:gap-y-0 sm:gap-x-4 mt-10 flex justify-between ">
+                        <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                            <div className=''>
+                                <Image src={Inovative1} className='mx-auto' />
+                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Creative Excellence</p>
                             </div>
                         </div>
+                        <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                            <div>
+                                <Image src={Inovative2} className='mx-auto' />
+                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Customized Solutions</p>
+                            </div>
+                        </div>
+                        <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                            <div>
+                                <Image src={Inovative3} className='mx-auto' />
+                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Responsive Design</p>
+                            </div>
+                        </div>
+                        <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                            <div>
+                                <Image src={Inovative4} className='mx-auto' />
+                                <p className='text-[20px] gilroy text-center mt-3 font-light'>On-Time Delivery</p>
+                            </div>
+                        </div>
+                        <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                            <div>
+                                <Image src={Inovative5} className='mx-auto' />
+                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Affordable Pricing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-12">
                         <div className="col-span-12">
                             <div className="bg-black flex flex-wrap items-center sm:justify-center sm:space-x-4 lg:space-x-0 space-y-7 lg:space-y-0 lg:justify-between rounded-2xl md:rounded-full px-[30px] py-[10px] mt-16">
                                 <div className='mt-6 lg:mt-0'>
@@ -80,6 +91,7 @@ export const Inovative = () => {
                     </div>
                 </div>
             </section>
+
         </>
     )
 }

@@ -8,7 +8,6 @@ import logo3 from 'public/images/webdesign/logo3.png'
 import logo4 from 'public/images/webdesign/logo4.png'
 import logo5 from 'public/images/webdesign/logo5.png'
 import GredientBtn from './GredientBtn'
-import SimpleBtn from './SimpleBtn'
 import SimpleBtnTwo from './SimpleBtnTwo'
 
 export default function WebDesign() {
@@ -27,15 +26,54 @@ export default function WebDesign() {
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div className="col-span-12">
-                        <div className="flex flex-wrap xl:flex-nowrap items-center justify-center sm:space-x-8 xl:space-x-3 space-y-5 mt-10">
-                            <Image src={logo1} />
-                            <Image src={logo2} />
-                            <Image src={logo3} />
-                            <Image src={logo4} />
-                            <Image src={logo5} />
+                <div className="grid grid-cols-12 md:grid-cols-5 gap-y-5 md:gap-y-0 sm:gap-x-4 mt-10 flex justify-between ">
+                    <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                        <div className="relative group">
+                            <Image src={logo1} alt='logos' className='sm:w-full mx-auto' />
+                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
+                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Logo
+                                    Design</h6>
+                            </div>
                         </div>
+                    </div>
+                    <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                        <div className="relative group">
+                            <Image src={logo2} alt='logos' className='sm:w-full mx-auto' />
+                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
+                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Apps</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                        <div className="relative group">
+                            <Image src={logo3} alt='logos' className='sm:w-full mx-auto' />
+                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
+                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Website</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                        <div className="relative group">
+                            <Image src={logo4} alt='logos' className='sm:w-full mx-auto' />
+                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
+                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>SEO</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-span-12 sm:col-span-6 md:col-span-1">
+                        <div className="relative group">
+                            <Image src={logo5} alt='logos' className='sm:w-full mx-auto' />
+                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
+                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Logo
+                                    Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="grid grid-cols-12">
+                    <div className="col-span-12">
                         <div className="flex flex-wrap justify-center sm:justify-start items-center space-x-2 sm:space-x-4 mt-14">
                             <GredientBtn BtnTxt="Start Live Chat" />
                             <SimpleBtnTwo simpleTxt="Book Demo" />

@@ -180,6 +180,7 @@ h6 {
 @media only screen and (max-width:1399px) {
     .tabs-sec .slick-dots {
         bottom: -12.1%;
+        width: 10%;
     }
 
     .settingSlider .slick-dots {
@@ -205,7 +206,7 @@ h6 {
     }
 
     .tabs-sec .slick-prev {
-        right: 54px !important;
+        right: 41px !important;
         left: inherit;
         top: 109%;
     }

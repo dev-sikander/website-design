@@ -48,10 +48,10 @@ export const ClientReview = () => {
                     <Slider {...settings} className='settingSlider mt-8'>
                         <div className="">
                             <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[62vh] flex items-start flex-col justify-between relative'>
+                                <div className='w-full sm:w-[38%] h-[30vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[39vh] flex items-start flex-col justify-between relative'>
                                     <Image src={Logo} />
                                     <div className="txt mt-8">
-                                        <Image src={Particle} className='absolute bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
+                                        <Image src={Particle} className='absolute 2xl:bottom-[-21%] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
                                         <div className="flex items-center space-x-2">
                                             <Image src={Person} />
                                             <div className="cardContent">
@@ -73,10 +73,10 @@ export const ClientReview = () => {
                         </div>
                         <div className="">
                             <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[62vh] flex items-start flex-col justify-between relative'>
+                                <div className='w-full sm:w-[38%] h-[30vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[39vh] flex items-start flex-col justify-between relative'>
                                     <Image src={Logo} />
                                     <div className="txt mt-8">
-                                        <Image src={Particle} className='absolute bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
+                                        <Image src={Particle} className='absolute 2xl:bottom-[-21%] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
                                         <div className="flex items-center space-x-2">
                                             <Image src={Person} />
                                             <div className="cardContent">
@@ -98,10 +98,10 @@ export const ClientReview = () => {
                         </div>
                         <div className="">
                             <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[62vh] flex items-start flex-col justify-between relative'>
+                                <div className='w-full sm:w-[38%] h-[30vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[39vh] flex items-start flex-col justify-between relative'>
                                     <Image src={Logo} />
                                     <div className="txt mt-8">
-                                        <Image src={Particle} className='absolute bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
+                                        <Image src={Particle} className='absolute 2xl:bottom-[-21%] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
                                         <div className="flex items-center space-x-2">
                                             <Image src={Person} />
                                             <div className="cardContent">
@@ -123,10 +123,10 @@ export const ClientReview = () => {
                         </div>
                         <div className="">
                             <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[62vh] flex items-start flex-col justify-between relative'>
+                                <div className='w-full sm:w-[38%] h-[30vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[39vh] flex items-start flex-col justify-between relative'>
                                     <Image src={Logo} />
                                     <div className="txt mt-8">
-                                        <Image src={Particle} className='absolute bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
+                                        <Image src={Particle} className='absolute 2xl:bottom-[-21%] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain' />
                                         <div className="flex items-center space-x-2">
                                             <Image src={Person} />
                                             <div className="cardContent">

@@ -29,7 +29,7 @@ export default function WebDesign() {
                     </div>
 
                     <div className="col-span-12">
-                        <div className="flex flex-wrap items-center justify-center sm:space-x-8 space-y-5 mt-10">
+                        <div className="flex flex-wrap xl:flex-nowrap items-center justify-center sm:space-x-8 xl:space-x-3 space-y-5 mt-10">
                             <Image src={logo1} />
                             <Image src={logo2} />
                             <Image src={logo3} />

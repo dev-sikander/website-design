@@ -5,12 +5,13 @@
 
 @font-face {
     font-family: 'Gilroy B';
-    src: url(../../public/fonts/Gilroy-ExtraBold.otf);
+    /* src: url(../public/fonts/Gilroy-ExtraBold.otf); */
+    src: url(../public/fonts/Gilroy-ExtraBold.otf);
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url(../../public/fonts/Gilroy-Light.otf);
+    src: url(../public/fonts/Gilroy-Light.otf);
 }
 
 html,
@@ -79,7 +80,7 @@ h6 {
 }
 
 .tabs-sec .slick-prev:before {
-    content: url(../../public/images/tabsimages/left-btn.png);
+    content: url(../public/images/tabsimages/left-btn.png);
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
@@ -90,7 +91,7 @@ h6 {
 }
 
 .tabs-sec .slick-next:before {
-    content: url(../../public/images/tabsimages/right-btn.png);
+    content: url(../public/images/tabsimages/right-btn.png);
 }
 
 .tabs-sec .slick-next {
@@ -107,7 +108,7 @@ h6 {
 }
 
 .settingSlider .slick-prev:before {
-    content: url(../../public/images/tabsimages/left-btn.png);
+    content: url(../public/images/tabsimages/left-btn.png);
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
@@ -119,7 +120,7 @@ h6 {
 }
 
 .settingSlider .slick-next:before {
-    content: url(../../public/images/tabsimages/right-btn.png);
+    content: url(../public/images/tabsimages/right-btn.png);
     filter: invert(1);
 }
 
@@ -176,6 +177,39 @@ h6 {
 
 /* media query */
 
+@media only screen and (max-width:1399px) {
+    .tabs-sec .slick-dots {
+        bottom: -12.1%;
+    }
+
+    .settingSlider .slick-dots {
+        bottom: -19%;
+    }
+
+    .settingSlider .slick-next {
+        right: inherit;
+        left: 86%;
+        top: 116%;
+    }
+
+    .settingSlider .slick-prev {
+        right: 100px !important;
+        left: inherit;
+        top: 116%;
+    }
+
+    .tabs-sec .slick-next {
+        right: inherit;
+        left: 89%;
+        top: 109%;
+    }
+
+    .tabs-sec .slick-prev {
+        right: 54px !important;
+        left: inherit;
+        top: 109%;
+    }
+}
 
 @media only screen and (max-width:1199px) {
     .tabs-sec .slick-dots {

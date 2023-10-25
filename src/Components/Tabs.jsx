@@ -94,22 +94,22 @@ export const Tabs = () => {
                         <div className='relative'>
                             <Slider {...settings} className='mb-14'>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                    <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                    <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                    <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                    <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                    <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                    <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                                 </div>
                             </Slider>
 
@@ -124,22 +124,22 @@ export const Tabs = () => {
                     <div className='relative'>
                         <Slider {...settings} className='mb-14'>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                         </Slider>
 
@@ -153,22 +153,22 @@ export const Tabs = () => {
                     <div className='relative'>
                         <Slider {...settings} className='mb-14'>
                             <div>
-                                <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div>
-                                <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div>
-                                <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div>
-                                <Image src={Tab4} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab4} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div>
-                                <Image src={Tab5} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab5} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div>
-                                <Image src={Tab6} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab6} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                         </Slider>
 
@@ -184,22 +184,22 @@ export const Tabs = () => {
                     <div className='relative'>
                         <Slider {...settings} className='mb-14'>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab3} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab1} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] max-h-[324px]' />
+                                <Image src={Tab2} className='w-[98%] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
                             </div>
                         </Slider>
 

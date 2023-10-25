@@ -22,7 +22,7 @@ export const Inovative = () => {
                             <p className='text-black text-[13px] sm:text-[15px] font-light max-w-[700px]'>Our commitment to delivering innovative solutions and consistently surpassing expectations
                                 make Web Design Hub an exclusive choice</p>
 
-                            <div className="flex flex-wrap justify-around space-y-6 space-x-4 mt-10">
+                            <div className="flex flex-wra xl:flex-nowrap justify-around space-y-6 space-x-4 mt-10">
                                 <div className='mt-6'>
                                     <Image src={Inovative1} />
                                     <p className='text-[20px] gilroy text-center mt-3 font-light'>Creative Excellence</p>

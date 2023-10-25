@@ -12,8 +12,8 @@ function Header() {
 
     return (
         <>
-            <header className="relative bg-transparent z-40">
-                <div className="px-[10px] sm:px-[30px]">
+            <header className="relative bg-transparent z-40 ">
+                <div className="px-[10px] sm:px-[30px] border-b border-[#A2A2A2] mx-[30px]">
                     <div className="flex justify-between items-center py-6 lg:justify-start">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="#">

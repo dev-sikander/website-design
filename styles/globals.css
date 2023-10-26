@@ -187,6 +187,67 @@ h6 {
 
 /* media query */
 
+
+
+@media only screen and (max-width:1920px) {
+    .tabs-sec .slick-dots {
+        bottom: -9.7%;
+    }
+
+    .tabs-sec .slick-next {
+        left: 91%;
+    }
+
+    .settingSlider .slick-dots {
+        bottom: -19%;
+    }
+
+    .settingSlider .slick-next {
+        left: 91%;
+        top: 117%;
+    }
+
+    .settingSlider .slick-prev {
+        right: 81px !important;
+        top: 117%;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .tabs-sec .slick-next {
+        left: 91%;
+    }
+
+    .tabs-sec .slick-prev {
+        right: 43px !important;
+        top: 108%;
+    }
+
+    .settingSlider .slick-next {
+        left: 88%;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .tabs-sec .slick-dots {
+        bottom: -11.7%;
+    }
+
+    .tabs-sec .slick-next {
+        left: 89%;
+        top: 109.3%;
+    }
+
+    .tabs-sec .slick-prev {
+        left: inherit;
+        top: 109.3%;
+    }
+
+    .settingSlider .slick-next {
+        left: 87%;
+    }
+}
+
 @media only screen and (max-width:1399px) {
     .tabs-sec .slick-dots {
         bottom: -12.1%;
@@ -204,7 +265,7 @@ h6 {
     }
 
     .settingSlider .slick-prev {
-        right: 100px !important;
+        right: 82px !important;
         left: inherit;
         top: 116%;
     }

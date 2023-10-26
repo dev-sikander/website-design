@@ -5,8 +5,6 @@ import data from './data'
 
 //
 import CheckImage from 'public/images/websiteimage/checkImage.png'
-import Btn from './Btn'
-import SimpleBtn from './SimpleBtn'
 
 
 export const Packages = () => {

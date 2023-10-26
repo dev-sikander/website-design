@@ -30,12 +30,24 @@ export const Tabs = () => {
         infinite: true,
         arrows: true,
         centerMode: true,
-        centerPadding: '400px',
+        centerPadding: '560px',
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         rows: 2,
         responsive: [
+            {
+                breakpoint: 1700,
+                settings: {
+                    centerPadding: '480px',
+                }
+            },
+            {
+                breakpoint: 1680,
+                settings: {
+                    centerPadding: '360px',
+                }
+            },
             {
                 breakpoint: 1199,
                 settings: {
@@ -94,26 +106,26 @@ export const Tabs = () => {
                         <div className='relative'>
                             <Slider {...settings} className='mb-14'>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                    <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                    <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                    <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                    <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                    <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                                 </div>
                                 <div className='mx-[10px]'>
-                                    <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                    <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                                 </div>
                             </Slider>
 
-                            <hr className='border-y-2 rounded-full border-black mt-14 w-[80%] xl:w-[88%] xl:block hidden' />
+                            <hr className='border-y-2 rounded-full border-black mt-14 w-[80%] xl:w-[88%] 2xl:w-[90%] xl:block hidden' />
                         </div>
                     }
                 </div>
@@ -124,22 +136,22 @@ export const Tabs = () => {
                     <div className='relative'>
                         <Slider {...settings} className='mb-14'>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                         </Slider>
 
@@ -153,22 +165,22 @@ export const Tabs = () => {
                     <div className='relative'>
                         <Slider {...settings} className='mb-14'>
                             <div>
-                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div>
-                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div>
-                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div>
-                                <Image src={Tab4} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab4} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div>
-                                <Image src={Tab5} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab5} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div>
-                                <Image src={Tab6} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab6} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                         </Slider>
 
@@ -184,22 +196,22 @@ export const Tabs = () => {
                     <div className='relative'>
                         <Slider {...settings} className='mb-14'>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] xl:max-h-[281px] xl:min-h-[281px]' />
+                                <Image src={Tab2} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                         </Slider>
 

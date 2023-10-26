@@ -2,8 +2,6 @@
 
 import Banner from '@/Components/Banner'
 import { ClientReview } from '@/Components/ClientReview'
-import { Footer } from '@/Components/Footer'
-import Header from '@/Components/Header'
 import { Inovative } from '@/Components/Inovative'
 import { Meeting } from '@/Components/Meeting'
 import { Portfolio } from '@/Components/Portfolio'
@@ -14,7 +12,6 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <Header />
       <Banner />
       <WebDesign />
       <ResponsiveWebsite />
@@ -22,7 +19,6 @@ const page = () => {
       <ClientReview />
       <Inovative />
       <Meeting />
-      <Footer />
     </>
   )
 }

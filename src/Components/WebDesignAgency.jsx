@@ -32,41 +32,40 @@ export default function WebDesign() {
                     <div className="col-span-12 sm:col-span-6 md:col-span-1">
                         <div className="relative group">
                             <Image src={logo1} alt='logos' className='sm:w-full mx-auto' />
-                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
-                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Logo
-                                    Design</h6>
+                            <div className="txt bg-[#000000]/40 absolute top-0 left-0 w-full h-0 flex items-center justify-center rounded-full overflow-hidden transition-all ease-in-out duration-500 opacity-0 group-hover:opacity-100 group-hover:h-full ">
+                                <h6 className='xl:text-[30px] text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Logo Design</h6>
                             </div>
                         </div>
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-1">
                         <div className="relative group">
                             <Image src={logo2} alt='logos' className='sm:w-full mx-auto' />
-                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
-                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Apps</h6>
+                            <div className="txt bg-[#000000]/40 absolute top-0 left-0 w-full h-0 flex items-center justify-center rounded-full overflow-hidden transition-all ease-in-out duration-500 opacity-0 group-hover:opacity-100 group-hover:h-full">
+                                <h6 className='xl:text-[30px] text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Apps</h6>
                             </div>
                         </div>
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-1">
                         <div className="relative group">
                             <Image src={logo3} alt='logos' className='sm:w-full mx-auto' />
-                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
-                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Website</h6>
+                            <div className="txt bg-[#000000]/40 absolute top-0 left-0 w-full h-0 flex items-center justify-center rounded-full overflow-hidden transition-all ease-in-out duration-500 opacity-0 group-hover:opacity-100 group-hover:h-full">
+                                <h6 className='xl:text-[30px] text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Website</h6>
                             </div>
                         </div>
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-1">
                         <div className="relative group">
                             <Image src={logo4} alt='logos' className='sm:w-full mx-auto' />
-                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
-                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>SEO</h6>
+                            <div className="txt bg-[#000000]/40 absolute top-0 left-0 w-full h-0 flex items-center justify-center rounded-full overflow-hidden transition-all ease-in-out duration-500 opacity-0 group-hover:opacity-100 group-hover:h-full">
+                                <h6 className='xl:text-[30px] text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>SEO</h6>
                             </div>
                         </div>
                     </div>
                     <div className="col-span-12 sm:col-span-6 md:col-span-1">
                         <div className="relative group">
                             <Image src={logo5} alt='logos' className='sm:w-full mx-auto' />
-                            <div className="txt bg-[#000000]/40 h-full absolute top-0 left-0 flex items-center justify-center rounded-full w-[100%] hidden group-hover:block transition-transform ease-in-out duration-1000 opacity-0 group-hover:opacity-100">
-                                <h6 className='text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Logo
+                            <div className="txt bg-[#000000]/40 absolute top-0 left-0 w-full h-0 flex items-center justify-center rounded-full overflow-hidden transition-all ease-in-out duration-500 opacity-0 group-hover:opacity-100 group-hover:h-full">
+                                <h6 className='xl:text-[30px] text-[20px] gilroy-b text-center text-white leading-[8] lg:leading-[10] xl:leading-[12]'>Logo
                                     Design</h6>
                             </div>
                         </div>

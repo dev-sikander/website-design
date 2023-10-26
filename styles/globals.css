@@ -33,6 +33,16 @@ h6 {
     font-family: "Gilroy B", sans-serif;
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    background: #000;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #45E2A1;
+}
+
 .tabs-sec .slick-dots {
     position: absolute;
     display: block;

@@ -7,19 +7,25 @@ import data from './data'
 import CheckImage from 'public/images/websiteimage/checkImage.png'
 
 
-export const Packages = () => {
+export const Packages = (props) => {
+    const { subtitle, title, content, bg, css } = props.packages;
+
     return (
         <>
-            <section className="py-[100px] bg-[url('/images/websiteimage/packages-bg.png')] bg-cover bg-center">
+            <section className={`py-[100px] bg-cover bg-center ${bg ?? "bg-black"}`}>
                 <div className="px-[10px] sm:px-[30px]">
                     <div className="grid grid-cols-12">
                         <div className="col-span-12 mb-7 lg:mb-20">
-                            <p className='text-[12px] sm:text-[15px] font-light text-center mb-2 sm:mb-0'>Web Development Packages</p>
-                            <h2 className='text-[25px] sm:text-[40px] font-light leading-[1.2] text-center mb-2'>Budget-Friendly <span className='gilroy-b'>Website Development</span> Company</h2>
-                            <p className='text-[12px] sm:text-[15px] font-light text-center'>Our commitment to affordability means you can have a stunning, professionally designed website that perfectly suits your budget.</p>
+                            <p className='text-[12px] sm:text-[15px] font-light text-center mb-2 sm:mb-0'>{subtitle}</p>
+                            <div dangerouslySetInnerHTML={{
+                                __html: `<h1 class="text-[25px] sm:text-[40px] font-light leading-[1.2] text-center mb-2 ${css ?? "text-black"}">
+        ${title}
+    </h1>`
+                            }} />
+                            <p className={`text-[12px] sm:text-[15px] font-light text-center max-w-[810px] mx-auto ${css ?? "text-black"}`}>{content}</p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                         {data.map(packageItem => (
                             <div key={packageItem.id} className="card bg-[#1A1A1A] rounded-xl py-4 px-4">
                                 <div className="px-6 py-4">
@@ -38,7 +44,7 @@ export const Packages = () => {
                                                         </li>
                                                     ))}
                                                 </ul>
-                                                <div className="flex items-center justify-between mt-10">
+                                                <div className="flex flex-wrap gap-y-5 items-center justify-between mt-10">
                                                     <div className="btnOne">
                                                         <a href="javascript:;" className='bg-gradient-to-l from-[#45E2A1] to-[#237456] text-[14px] py-3 px-5 md:px-10 rounded-[3px] text-black font-medium poppins mb-3 sm:mb-0 d-block'>
                                                             Order Now

@@ -8,16 +8,22 @@ import SelectInp from './SelectInp'
 // images 
 import logos from 'public/images/banner-image/banner-logos.png'
 
-function Banner() {
+function Banner(props) {
+    const { title, content, bg, css } = props.content;
     return (
         <>
-            <section className={`bg-cover  bg-center ${styles.bannerSec}`}>
+            <section className={`bg-cover  bg-center ${bg ?? "bg-black"} ${css}`}>
                 <div className="px-[10px] sm:px-[30px]">
                     <div className="grid grid-cols-12">
                         <div className="col-span-12 md:col-span-7">
                             <div className="border-l-[3px] border-[#5CD881]">
-                                <h1 className='text-[30px] md:text-[40px] max-w-[530px] text-white font-light leading-[1.2] mb-2 pl-[12px]'>Creating <span className='font-extrabold text-[#45E2A1] gilroy-b'>100%</span> Original Custom Website Designs</h1>
-                                <p className='text-white text-[15px] font-light pb-8 pl-[12px]'>Frustrated by underperforming web designs? It's time for a change and we can help. Website Design Hub is trusted by businesses nationwide. We are a top-rated and affordable web design company, known for creating websites that are:</p>
+                                <div dangerouslySetInnerHTML={{
+                                    __html: `<h1 class='text-[30px] md:text-[40px] max-w-[560px] text-white font-light leading-[1.2] mb-3 pl-[12px]'>
+                                    ${title}
+                                </h1>`}} />
+                                <p className='text-white text-[15px] font-light pb-8 pl-[12px]'>
+                                    {content}
+                                </p>
 
                                 <Image src={logos} alt='Logos ' />
                             </div>

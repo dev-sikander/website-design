@@ -83,7 +83,7 @@ export const Tabs = () => {
     return (
         <section className='tabs-sec '>
             <div className="col-12">
-                <div className="flex flex-wrap justify-center lg:justify-start space-y-3 lg:space-y-0 items-center space-x-3 lg:space-x-8 mt-10 mb-10">
+                <div className="flex flex-wrap justify-center lg:justify-start space-y-3 lg:space-y-0 items-center space-x-3 lg:space-x-5 mt-10 mb-10">
                     <div className={`cursor-pointer ${activeTab1 === 'tab1' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[10px] text-white' : 'border-2 border-black'} px-7 py-2 rounded`} onClick={() => setActiveTab1('tab1')}>
                         Logo Design
                     </div>

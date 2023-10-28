@@ -14,7 +14,7 @@ import MailIco from 'public/images/mail-ico.svg'
 export const Inovative = () => {
     return (
         <>
-            <section className='py-[40px] sm:py-[80px]'>
+            <section className='py-[40px] sm:pt-[80px] sm:pb-[110px]'>
                 <div className="px-[10px] sm:px-[30px]">
                     <div className="grid grid-cols-12">
                         <div className="col-span-12">
@@ -23,41 +23,41 @@ export const Inovative = () => {
                                 make Web Design Hub an exclusive choice</p>
                         </div>
                     </div>
-                    <div className="grid grid-cols-12 md:grid-cols-5 gap-y-5 md:gap-y-0 sm:gap-x-4 mt-10 flex justify-between ">
+                    <div className="grid grid-cols-12 md:grid-cols-5 gap-y-5 md:gap-y-0 sm:gap-x-4 mt-10 lg:mt-14 flex justify-between ">
                         <div className="col-span-12 sm:col-span-6 md:col-span-1">
                             <div className=''>
-                                <Image src={Inovative1} className='mx-auto' />
-                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Creative Excellence</p>
+                                <Image quality={80} src={Inovative1} className='mx-auto xl:w-full xl:h-full' />
+                                <p className='text-[20px] gilroy text-center lg:mt-5 mt-3 font-light'>Creative Excellence</p>
                             </div>
                         </div>
                         <div className="col-span-12 sm:col-span-6 md:col-span-1">
                             <div>
-                                <Image src={Inovative2} className='mx-auto' />
-                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Customized Solutions</p>
+                                <Image quality={80} src={Inovative2} className='mx-auto xl:w-full xl:h-full' />
+                                <p className='text-[20px] gilroy text-center lg:mt-5 mt-3 font-light'>Customized Solutions</p>
                             </div>
                         </div>
                         <div className="col-span-12 sm:col-span-6 md:col-span-1">
                             <div>
-                                <Image src={Inovative3} className='mx-auto' />
-                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Responsive Design</p>
+                                <Image quality={80} src={Inovative3} className='mx-auto xl:w-full xl:h-full' />
+                                <p className='text-[20px] gilroy text-center lg:mt-5 mt-3 font-light'>Responsive Design</p>
                             </div>
                         </div>
                         <div className="col-span-12 sm:col-span-6 md:col-span-1">
                             <div>
-                                <Image src={Inovative4} className='mx-auto' />
-                                <p className='text-[20px] gilroy text-center mt-3 font-light'>On-Time Delivery</p>
+                                <Image quality={80} src={Inovative4} className='mx-auto xl:w-full xl:h-full' />
+                                <p className='text-[20px] gilroy text-center lg:mt-5 mt-3 font-light'>On-Time Delivery</p>
                             </div>
                         </div>
                         <div className="col-span-12 sm:col-span-6 md:col-span-1">
                             <div>
-                                <Image src={Inovative5} className='mx-auto' />
-                                <p className='text-[20px] gilroy text-center mt-3 font-light'>Affordable Pricing</p>
+                                <Image quality={80} src={Inovative5} className='mx-auto xl:w-full xl:h-full' />
+                                <p className='text-[20px] gilroy text-center lg:mt-5 mt-3 font-light'>Affordable Pricing</p>
                             </div>
                         </div>
                     </div>
                     <div className="grid grid-cols-12">
                         <div className="col-span-12">
-                            <div className="bg-black flex flex-wrap items-center sm:justify-center sm:space-x-4 lg:space-x-0 space-y-7 lg:space-y-0 lg:justify-between rounded-2xl md:rounded-full px-[30px] py-[10px] mt-16">
+                            <div className="bg-black flex flex-wrap items-center sm:justify-center sm:space-x-4 lg:space-x-0 space-y-7 lg:space-y-0 lg:justify-between rounded-2xl md:rounded-full px-[30px] py-[25px] md:py-[10px] mt-16 xl:mt-20">
                                 <div className='mt-6 lg:mt-0'>
                                     <p className='text-white text-[17px] md:text-[20px] gilroy font-light leading-[1.3]'>you are just a call away from <br className='sm:block hidden' />
                                         securing a spectacular design</p>
@@ -65,7 +65,7 @@ export const Inovative = () => {
                                 <div>
                                     <a href="tel:;" className='flex items-center space-x-2'>
                                         <div className="icon">
-                                            <Image src={PhoneIco} className='w-10' />
+                                            <Image quality={80} src={PhoneIco} className='w-10' />
                                         </div>
                                         <div className="telTxt">
                                             <p className='text-white text-[19px] gilroy font-light'>call us (toll free) <br />
@@ -77,7 +77,7 @@ export const Inovative = () => {
                                 <div>
                                     <a href="mailto:;" className='flex items-center space-x-2'>
                                         <div className="icon">
-                                            <Image src={MailIco} className='w-10' />
+                                            <Image quality={80} src={MailIco} className='w-10' />
                                         </div>
                                         <div className="telTxt">
                                             <p className='text-white text-[19px] gilroy font-light leading-[1]'>discuss your ideas <br />

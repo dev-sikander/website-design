@@ -88,21 +88,21 @@ export const Footer = () => {
                                     <ul>
                                         <li className='mb-8'>
                                             <a href="javascript:;" className='text-white text-[15px] font-light flex items-center space-x-2'>
-                                                <Image src={Location} className='w-7 h-7' />
+                                                <Image quality={80} src={Location} className='w-7 h-7' />
                                                 <span className='text-white text-[15px] font-light leading-[1.5]'>Lorem ipsum dolor sit amet,
                                                     consectetur adipiscing elit.</span>
                                             </a>
                                         </li>
                                         <li className='mb-8'>
                                             <a href="tel:;" className='text-white text-[15px] font-light flex items-center space-x-2'>
-                                                <Image src={Tel} className='w-7 h-7' />
+                                                <Image quality={80} src={Tel} className='w-7 h-7' />
                                                 <span className='text-white text-[15px] font-light leading-[1.4]'>(123)-000-0000
                                                 </span>
                                             </a>
                                         </li>
                                         <li className='mb-8'>
                                             <a href="tel:;" className='text-white text-[15px] font-light flex items-center space-x-2'>
-                                                <Image src={Mail} className='w-7 h-7' />
+                                                <Image quality={80} src={Mail} className='w-7 h-7' />
                                                 <span className='text-white text-[15px] font-light leading-[1.4]'>info@gmail.com
                                                 </span>
                                             </a>

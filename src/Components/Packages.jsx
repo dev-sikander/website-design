@@ -8,6 +8,7 @@ import CheckImage from 'public/images/websiteimage/checkImage.png'
 
 
 export const Packages = (props) => {
+
     const { subtitle, title, content, bg, css } = props.packages;
 
     return (
@@ -18,11 +19,11 @@ export const Packages = (props) => {
                         <div className="col-span-12 mb-7 lg:mb-20">
                             <p className='text-[12px] sm:text-[15px] font-light text-center mb-2 sm:mb-0'>{subtitle}</p>
                             <div dangerouslySetInnerHTML={{
-                                __html: `<h1 class="text-[25px] sm:text-[40px] font-light leading-[1.2] text-center mb-2 ${css ?? "text-black"}">
+                                __html: `<h1 class="text-[25px] sm:text-[40px] font-light leading-[1.2] text-center mb-2 ${css}">
         ${title}
     </h1>`
                             }} />
-                            <p className={`text-[12px] sm:text-[15px] font-light text-center max-w-[810px] mx-auto ${css ?? "text-black"}`}>{content}</p>
+                            <p className={`text-[12px] sm:text-[15px] font-light text-center max-w-[810px] mx-auto ${css}`}>{content}</p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -39,7 +40,7 @@ export const Packages = (props) => {
                                                 <ul className="overflow-y-auto h-64 mb-5 custom-scrollbar">
                                                     {subPackage.list.map(item => (
                                                         <li key={item} className='flex items-start space-x-2 leading-0 mb-3'>
-                                                            <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                            <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                             <span className='text-white font-light'>{item}</span>
                                                         </li>
                                                     ))}

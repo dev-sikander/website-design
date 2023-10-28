@@ -24,7 +24,7 @@ export const CreativeDigitalMarketing = () => {
                             </div>
                         </div>
                         <div className="md:col-span-5 lg:col-span-7 md:block hidden">
-                            <Image src={ResponsiveImage} className='w-full lg:h-full mt-[-77px]' />
+                            <Image quality={80} src={ResponsiveImage} className='w-full lg:h-full mt-[-77px]' />
                         </div>
                     </div>
                 </div>

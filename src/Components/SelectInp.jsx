@@ -21,7 +21,7 @@ export default function SelectInp() {
                     value={selectedOption}
                     onClick={(e) => toggleDropdown(e, 'Service 1')}
                 />
-                <Image src={icon} className='absolute right-[10px] top-[21px]' />
+                <Image quality={80} src={icon} className='absolute right-[10px] top-[21px]' />
                 {isDropdownVisible && (
                     <ul className="absolute top-[40px] left-0 bg-[#707070]  backdrop-blur-lg text-center border-2 min-h-[175px] rounded-b-md border-t-0 mt-1 w-full z-[9999999999]">
                         <li onClick={(e) => toggleDropdown(e, 'Service 1')} className="py-2 px-3 text-white hover:text-black hover:bg-gray-100 cursor-pointer">Service 1</li>

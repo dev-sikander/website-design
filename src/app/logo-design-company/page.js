@@ -3,7 +3,6 @@
 import Banner from '@/Components/Banner'
 import { LogoPortfolio } from '@/Components/LogoPortfolio'
 import { Packages } from '@/Components/Packages'
-import { Portfolio } from '@/Components/Portfolio'
 import { ResponsiveWebsiteDevelopment } from '@/Components/ResponsiveWebsiteDevelopment'
 import { TimeAndValue } from '@/Components/TimeAndValue'
 import React from 'react'
@@ -14,7 +13,7 @@ const page = () => {
         title: "Logo Design Company That's Designing <span class='font-extrabold text-[#45E2A1] gilroy-b'>Brand’s </span> Signature",
         content: "At Web Design Hub, we employ the best logo designers and illustrators to make creative logos for big companies and small businesses. As an affordable logo design company, we promise to create a logo that delivers impressive outcomes for your brand.",
         bg: "bg-[url(../public/images/logoimages/logobanner.png)]",
-        css: "mt-[-100px] pt-[160px]"
+        css: "mt-[-120px] pt-[160px]"
     }
 
     let websiteImage = {

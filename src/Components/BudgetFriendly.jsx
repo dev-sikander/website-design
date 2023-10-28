@@ -7,16 +7,23 @@ import Particle1 from 'public/images/digitalmarketing/budgetfriendlypart1.png'
 import Particle2 from 'public/images/digitalmarketing/budgetfriendlypart2.png'
 
 
-export const BudgetFriendly = () => {
+export const BudgetFriendly = (props) => {
+    const { subtitle, title, content, bg, css } = props.Budgetcont
     return (
         <>
-            <section className='lg:py-[100px]'>
+            <section className={`lg:py-[100px] ${bg}`}>
                 <div className="px-[10px] sm:px-[30px] mb-[30px]">
                     <div className="grid grid-cols-12 gap-6">
                         <div className="col-span-12 mb-7 lg:mb-20">
-                            <p className='text-[12px] sm:text-[15px] font-light text-center mb-2 sm:mb-0'>Digital Marketing Packages</p>
+                            {/* <p className='text-[12px] sm:text-[15px] font-light text-center mb-2 sm:mb-0'>Digital Marketing Packages</p>
                             <h2 className='text-[25px] sm:text-[40px] font-light leading-[1.2] text-center mb-2'>Budget-<span className='gilroy-b'>Friendly </span>Digital Brilliance</h2>
-                            <p className='text-[12px] sm:text-[15px] font-light text-center'>Our commitment to affordability means you can have a stunning, professionally designed website that perfectly suits your budget.</p>
+                            <p className='text-[12px] sm:text-[15px] font-light text-center'>Our commitment to affordability means you can have a stunning, professionally designed website that perfectly suits your budget.</p> */}
+                            <p className='text-[12px] sm:text-[15px] font-light text-center mb-2 sm:mb-0'>{subtitle}</p>
+                            <div dangerouslySetInnerHTML={{
+                                __html: `<h2 class='text-[25px] sm:text-[40px] font-light leading-[1.2] text-center mb-2'>
+                                    ${title}
+                                </h2>`}} />
+                            <p className='text-[12px] sm:text-[15px] font-light text-center'>{content}</p>
                         </div>
                         <div className="col-span-12 sm:col-span-6 lg:col-span-4">
                             <div className="card bg-[#1A1A1A] rounded-xl py-4 px-4">
@@ -29,27 +36,27 @@ export const BudgetFriendly = () => {
                                         <div className="bg-[#212121] py-7 px-5 rounded-[15px] mt-6 md:mt-10">
                                             <ul className="overflow-y-auto h-64 mb-5 custom-scrollbar">
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Cover Photo Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Profile Picture Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Welcome Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Unlimited Revisions</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>100% Satisfaction Guarantee</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>100% Money Back Guarantee *</span>
                                                 </li>
                                             </ul>
@@ -81,27 +88,27 @@ export const BudgetFriendly = () => {
                                         <div className="bg-[#212121] py-7 px-5 rounded-[15px] mt-6 md:mt-10">
                                             <ul className="overflow-y-auto h-64 mb-5 custom-scrollbar">
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Cover Photo Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Profile Picture Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Welcome Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Unlimited Revisions</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>100% Satisfaction Guarantee</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>100% Money Back Guarantee *</span>
                                                 </li>
                                             </ul>
@@ -133,27 +140,27 @@ export const BudgetFriendly = () => {
                                         <div className="bg-[#212121] py-7 px-5 rounded-[15px] mt-6 md:mt-10">
                                             <ul className="overflow-y-auto h-64 mb-5 custom-scrollbar">
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>2 Cover Photo Designs</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Profile Picture Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Welcome Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Twitter Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>YouTube Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Google+ Page Design</span>
                                                 </li>
                                             </ul>
@@ -185,27 +192,27 @@ export const BudgetFriendly = () => {
                                         <div className="bg-[#212121] py-7 px-5 rounded-[15px] mt-6 md:mt-10">
                                             <ul className="overflow-y-auto h-64 mb-5 custom-scrollbar">
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>2 Cover Photo Designs</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Profile Picture Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Welcome Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Twitter Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>YouTube Page Design</span>
                                                 </li>
                                                 <li className='flex items-start space-x-2 leading-0 mb-3'>
-                                                    <Image src={CheckImage} alt='check-image' className='mt-[6px]' />
+                                                    <Image quality={80} src={CheckImage} alt='check-image' className='mt-[6px]' />
                                                     <span className='text-white font-light'>Google+ Page Design</span>
                                                 </li>
                                             </ul>
@@ -228,8 +235,8 @@ export const BudgetFriendly = () => {
                         </div>
                         <div className="col-span-12 lg:col-span-8">
                             <div className="card bg-[#1A1A1A] rounded-xl py-4 px-4 h-full relative">
-                                <Image src={Particle2} className='absolute right-0 top-[-11px] md:block hidden' />
-                                <Image src={Particle1} className='absolute left-0 bottom-[-45px] md:block hidden' />
+                                <Image quality={80} src={Particle2} className='absolute right-0 top-[-11px] md:block hidden' />
+                                <Image quality={80} src={Particle1} className='absolute left-0 bottom-[-45px] md:block hidden' />
                                 <div className="bg-[#212121] rounded-xl flex flex-col h-full items-center justify-center p-4">
                                     <p className='text-white text-[14px] text-center'>Digital Marketing</p>
                                     <h5 className='text-[35px] sm:text-[55px] gilroy-b text-white text-center leading-[1]'>Custom Package</h5>

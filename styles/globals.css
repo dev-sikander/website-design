@@ -117,6 +117,32 @@ h6 {
     z-index: 999999;
 }
 
+.transition-enter {
+    opacity: 0;
+    transform: translateX(-20px);
+    /* Adjust the value according to your transition */
+    transition: opacity 300ms, transform 300ms;
+}
+
+.transition-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.transition-exit {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.transition-exit-active {
+    opacity: 0;
+    transform: translateX(20px);
+    /* Adjust the value according to your transition */
+    transition: opacity 300ms, transform 300ms;
+}
+
 .settingSlider .slick-prev:before {
     content: url(../public/images/tabsimages/left-btn.png);
     font-family: 'slick';

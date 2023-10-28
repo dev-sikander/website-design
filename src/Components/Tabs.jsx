@@ -83,17 +83,17 @@ export const Tabs = () => {
     return (
         <section className='tabs-sec '>
             <div className="col-12">
-                <div className="flex flex-wrap justify-center lg:justify-start space-y-3 lg:space-y-0 items-center space-x-3 lg:space-x-5 mt-10 mb-10">
-                    <div className={`cursor-pointer ${activeTab1 === 'tab1' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[10px] text-white' : 'border-2 border-black'} px-7 py-2 rounded`} onClick={() => setActiveTab1('tab1')}>
+                <div className="flex flex-wrap justify-center lg:justify-start space-y-3 lg:space-y-0 items-center space-x-3 lg:space-x-4 mt-10 xl:mt-14 mb-10">
+                    <div className={`cursor-pointer ${activeTab1 === 'tab1' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[15px] text-white' : 'border-2 border-black'} px-7 py-3 rounded`} onClick={() => setActiveTab1('tab1')}>
                         Logo Design
                     </div>
-                    <div className={`cursor-pointer ${activeTab1 === 'tab2' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[10px] text-white' : 'border-2 border-black'} px-7 py-2 rounded`} onClick={() => setActiveTab1('tab2')}>
+                    <div className={`cursor-pointer ${activeTab1 === 'tab2' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[15px] text-white' : 'border-2 border-black'} px-7 py-3 rounded`} onClick={() => setActiveTab1('tab2')}>
                         Website Design
                     </div>
-                    <div className={`cursor-pointer ${activeTab1 === 'tab3' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[10px] text-white' : 'border-2 border-black'} px-7 py-2 rounded`} onClick={() => setActiveTab1('tab3')}>
+                    <div className={`cursor-pointer ${activeTab1 === 'tab3' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[15px] text-white' : 'border-2 border-black'} px-7 py-3 rounded`} onClick={() => setActiveTab1('tab3')}>
                         Illustrations
                     </div>
-                    <div className={`cursor-pointer ${activeTab1 === 'tab4' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[10px] text-white' : 'border-2 border-black'} px-7 py-2 rounded`} onClick={() => setActiveTab1('tab4')}>
+                    <div className={`cursor-pointer ${activeTab1 === 'tab4' ? 'bg-gradient-to-l from-[#45E2A1] to-[#237456] py-[15px] text-white' : 'border-2 border-black'} px-7 py-3 rounded`} onClick={() => setActiveTab1('tab4')}>
                         Application Design
                     </div>
                 </div>
@@ -125,7 +125,7 @@ export const Tabs = () => {
                                 </div>
                             </Slider>
 
-                            <hr className='border-y-2 rounded-full border-black mt-14 w-[80%] xl:w-[88%] 2xl:w-[90%] xl:block hidden' />
+                            <hr className='border-y- rounded-full border-[#707070] mt-14 w-[80%] xl:w-[88%] 2xl:w-[90%] xl:block hidden' />
                         </div>
                     }
                 </div>

@@ -22,7 +22,7 @@ function EcommerceBanner(props) {
                                 <p className='text-white text-[15px] font-light pb-8 pl-[12px]'>
                                     {content}
                                 </p>
-                                <Image src={logos} alt='Logos ' />
+                                <Image quality={80} src={logos} alt='Logos ' />
                             </div>
                             <form action="javascript:;" className="form max-w-[450px] mt-7 border-2 border-white p-3 bg-[#34354C]/10  backdrop-blur-lg space-y-3 mb-[-60px]">
                                 <input type="text" placeholder='First Name*' className='bg-[#707070]/50  backdrop-blur-lg focus:outline-0 h-[48px] rounded-[8px] w-full px-3 text-white placeholder:text-white text-[14px]' required />

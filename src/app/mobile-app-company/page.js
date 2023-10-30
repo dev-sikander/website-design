@@ -1,41 +1,5 @@
 "use client"
 
-// import Banner from '@/Components/Banner'
-// import { Customwebsite } from '@/Components/Customwebsite'
-// import { ResponsiveWebsiteDevelopment } from '@/Components/ResponsiveWebsiteDevelopment'
-// import React from 'react'
-
-// const page = () => {
-
-
-
-//     let customWebsite = {
-//         subtitle: "We Provide Content that Converts",
-//         title: "Engage Your <span style='font-weight: 600' class='gilroy-b'>Audiencet</span> with <span style='font-weight: 600' class='gilroy-b'>Marketing</span> Collateral",
-//         desc: "We write content that transforms visitors into loyal customers. Our marketing collateral solutions are designed to engage your audience and drive conversions on your website.",
-//         image: "    /images/marketingimages/customwebsite.png",
-//         css: "mx-auto mt-12"
-//     }
-
-//     let websiteImage = {
-//         title: "The Masters of <span style='font-weight: 600' class='gilroy-b'>eCommerce Website</span> Design",
-//         desc: "At Web Design Hub,we design ecommerce websites that not only look fantastic but also generate results that distinguish your company in the market.",
-//         image: "/images/marketingimages/customwebsite.png",
-//         css: "mt-[-77px] w-9/12 mx-auto"
-//     }
-
-//     return (
-//         <>
-//             <Banner content={bannerProps} />
-//             <Customwebsite customContent={customWebsite} />
-//             <ResponsiveWebsiteDevelopment websiteImage={websiteImage} />
-
-//         </>
-//     )
-// }
-
-// export default page
-
 import Banner from '@/Components/Banner'
 import { BudgetFriendly } from '@/Components/BudgetFriendly'
 import { ClientReview } from '@/Components/ClientReview'
@@ -73,7 +37,7 @@ const page = () => {
         title: "Let us Develop a <span style='font-weight: 600' class='gilroy-b'>Responsive <br class='lg:block hidden'/> Website </span>to Help you Attract More Visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
         image: "/images/mobilecompanyimages/mobile-app.png",
-        css: "mt-[-60px] w-9/12 mx-auto",
+        css: "mt-[-33px] w-9/12 mx-auto",
     }
 
     let Budgetcont = {

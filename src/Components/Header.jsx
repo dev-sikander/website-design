@@ -49,33 +49,39 @@ function Header() {
                         <nav className='flex items-center space-x-7 xl:space-x-20 display_block'>
                             <ul className='flex items-center space-x-6 xl:space-x-10'>
                                 <li>
-                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                    <Link href="#" className="relative text-[16px] font-medium text-white font-poppins group" >
                                         Home
+                                        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-[#45E2A1] transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 origin-center"></span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                    <Link href="#" className="relative text-[16px] font-medium text-white font-poppins group" >
                                         About
+                                        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-[#45E2A1] transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 origin-center"></span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                    <Link href="#" className="relative text-[16px] font-medium text-white font-poppins group" >
                                         Services
+                                        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-[#45E2A1] transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 origin-center"></span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                    <Link href="#" className="relative text-[16px] font-medium text-white font-poppins group" >
                                         FAQ
+                                        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-[#45E2A1] transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 origin-center"></span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                    <Link href="#" className="relative text-[16px] font-medium text-white font-poppins group" >
                                         Pricing/Packages
+                                        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-[#45E2A1] transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 origin-center"></span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="text-[16px] font-medium text-white hover:text-[#45E2A1] transition duration-150 ease-in-out poppins" >
+                                    <Link href="#" className="relative text-[16px] font-medium text-white font-poppins group" >
                                         Contact
+                                        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-[#45E2A1] transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100 origin-center"></span>
                                     </Link>
                                 </li>
                             </ul>

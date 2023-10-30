@@ -18,7 +18,7 @@ function Banner(props) {
                         <div className="col-span-12 md:col-span-7">
                             <div className="border-l-[3px] border-[#5CD881]">
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<h1 class='text-[30px] md:text-[40px] max-w-[560px] text-white font-light leading-[1.2] mb-3 pl-[12px] ${headingWidth}'>
+                                    __html: `<h1 class='text-[30px] md:text-[40px] text-white font-light leading-[1.2] mb-3 pl-[12px] ${headingWidth}'>
                                     ${title}
                                 </h1>`}} />
                                 <div dangerouslySetInnerHTML={{

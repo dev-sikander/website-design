@@ -310,7 +310,7 @@ export const LogoTabs = () => {
                                 <Image quality={80} src={Tab3} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
-                                <Image quality={80} src={Tab} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
+                                <Image quality={80} src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />
                             </div>
                             <div className='mx-[10px]'>
                                 <Image quality={80} src={Tab1} className='w-[98%] min-h-[324px] max-h-[324px] 2xl:max-h-[340px] 2xl:min-h-[340px] xl:max-h-[281px] xl:min-h-[281px] object-cover' />

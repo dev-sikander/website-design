@@ -37,6 +37,8 @@ const page = () => {
     }
 
     let websiteImage = {
+        title: 'Get Noticed Online Our <br class="lg:block hidden"/> Creative <span class="gilroy-b font-semibold"> Digital Marketing</span> Company',
+        desc: 'Let Web Design Hub be your point of reference as you create and improve your digital presence',
         image: "/images/digitalmarketing/digitalmarketing1.png",
         css: "mt-[-77px]"
     }

@@ -313,7 +313,6 @@ h6 {
     }
 }
 
-
 @media only screen and (max-width:1280px) {
     .tabs-sec .slick-prev {
         right: 95px !important;
@@ -387,7 +386,16 @@ h6 {
 
 @media only screen and (max-width: 767px) {
     .tabs-sec .slick-dots {
-        display: none !important;
+        display: block !important;
+        width: 100%;
+    }
+
+    .tabs-sec .slick-dots {
+        bottom: -8.1%;
+    }
+
+    .settingSlider .slick-dots {
+        bottom: -6%;
     }
 
     .tabs-sec .slick-prev:before {

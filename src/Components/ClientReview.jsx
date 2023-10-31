@@ -48,7 +48,10 @@ export const ClientReview = () => {
                 settings: {
                     centerPadding: '0',
                     centerMode: false,
-                    dots: false,
+                    dots: true,
+                    autoPlay: true,
+                    speed: 500,
+                    variableWidth: false,
                 }
             }
         ]
@@ -58,7 +61,7 @@ export const ClientReview = () => {
     // slider end 
 
     return (
-        <section className="bg-[url('/images/clientimages/client-bg.png')] bg-cover bg-center pt-[70px] md:py-[70px] lg:py-[120px] relative">
+        <section className="bg-[url('/images/clientimages/client-bg.png')] bg-cover bg-center py-[70px] lg:py-[120px] relative">
             <div className="px-[10px] sm:px-[30px] sm:mb-[30px]">
                 <div className="grid grid-cols-12">
                     <div className="col-span-12 lg:col-span-5">

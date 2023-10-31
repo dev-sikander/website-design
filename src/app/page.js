@@ -11,7 +11,7 @@ import React from 'react'
 
 const page = () => {
   let bannerProps = {
-    title: "Creating <span class='font-extrabold text-[#45E2A1] gilroy-b'>100%</span> Original <br /> Custom Website Designs",
+    title: "Creating <span class='font-extrabold text-[#45E2A1] gilroy-b'>100%</span> Original <br class='lg:block hidden'/> Custom Website Designs",
     content: "Frustrated by underperforming web designs? It's time for a change and we can help. Website Design<br class='lg:block hidden' /> Hub is trusted by businesses nationwide. We are a top-rated and affordable web design company,<br class='lg:block hidden' /> known for creating websites that are:",
     bg: "bg-[url(../public/images/banner-image/banner-bg.png)]",
     css: "mt-[-120px] pt-[160px]",

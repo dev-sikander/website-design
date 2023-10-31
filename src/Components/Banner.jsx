@@ -15,7 +15,7 @@ function Banner(props) {
             <section className={`bg-cover  bg-center ${bg ?? "bg-black"} ${css}`}>
                 <div className="px-[10px] sm:px-[30px]">
                     <div className="grid grid-cols-12">
-                        <div className="col-span-12 md:col-span-7">
+                        <div className="col-span-12 lg:col-span-7">
                             <div className="border-l-[3px] border-[#5CD881]">
                                 <div dangerouslySetInnerHTML={{
                                     __html: `<h1 class='text-[30px] md:text-[40px] text-white font-light leading-[1.2] mb-3 pl-[12px] ${headingWidth}'>
@@ -33,7 +33,7 @@ function Banner(props) {
 
                                 <input type="email" placeholder='Email*' className='bg-[#70707070]/40 backdrop-blur-2xl  focus:outline-0 h-[50px] rounded-[10px] w-full px-3 text-white placeholder:text-white text-[14px]' required />
 
-                                <input type="number" placeholder='Phone*' className='bg-[#70707070]/40 backdrop-blur-2xl  focus:outline-0 h-[50px] rounded-[10px] w-full px-3 text-white placeholder:text-white text-[14px]' required />
+                                <input type="tel" minLength={6} maxLength={15} placeholder='Phone*' className='bg-[#70707070]/40 backdrop-blur-2xl  focus:outline-0 h-[50px] rounded-[10px] w-full px-3 text-white placeholder:text-white text-[14px]' required />
 
                                 <SelectInp />
 
@@ -50,7 +50,7 @@ function Banner(props) {
                                 </button>
                             </form>
                         </div>
-                        <div className="col-span-7">
+                        <div className="lg:col-span-7">
 
                         </div>
                     </div>

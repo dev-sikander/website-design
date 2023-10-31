@@ -90,7 +90,7 @@ h6 {
 }
 
 .tabs-sec .slick-prev:before {
-    content: url(../public/images/tabsimages/left-btn.png);
+    content: url(../public/images/tabsimages/right-btn.png);
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
@@ -101,7 +101,7 @@ h6 {
 }
 
 .tabs-sec .slick-next:before {
-    content: url(../public/images/tabsimages/right-btn.png);
+    content: url(../public/images/tabsimages/left-btn.png);
 }
 
 .tabs-sec .slick-next {
@@ -111,10 +111,14 @@ h6 {
 }
 
 .tabs-sec .slick-prev {
-    right: 61px !important;
+    right: 141px !important;
     left: inherit;
     top: 108%;
     z-index: 999999;
+}
+
+.tabs-sec .slick-next {
+    left: 96%;
 }
 
 .transition-enter {
@@ -144,20 +148,11 @@ h6 {
 }
 
 .settingSlider .slick-prev:before {
-    content: url(../public/images/tabsimages/left-btn.png);
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-    opacity: 0.75;
-    color: white;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    z-index: 99999999999;
+    content: url(../public/images/tabsimages/client_arrow.png);
 }
 
 .settingSlider .slick-next:before {
-    content: url(../public/images/tabsimages/right-btn.png);
-    filter: invert(1);
+    content: url(../public/images/tabsimages/left-btn.png);
 }
 
 .settingSlider .slick-next {
@@ -221,7 +216,7 @@ h6 {
     }
 
     .tabs-sec .slick-next {
-        left: 91%;
+        left: 96%;
     }
 
     .settingSlider .slick-dots {
@@ -229,28 +224,28 @@ h6 {
     }
 
     .settingSlider .slick-next {
-        left: 91%;
+        left: 95%;
         top: 117%;
     }
 
     .settingSlider .slick-prev {
-        right: 81px !important;
+        right: 150px !important;
         top: 117%;
     }
 }
 
 @media only screen and (max-width:1600px) {
     .tabs-sec .slick-next {
-        left: 91%;
+        left: 96%;
     }
 
     .tabs-sec .slick-prev {
-        right: 43px !important;
+        right: 110px !important;
         top: 108%;
     }
 
     .settingSlider .slick-next {
-        left: 88%;
+        left: 94%;
     }
 }
 
@@ -259,8 +254,13 @@ h6 {
         bottom: -11.7%;
     }
 
+    .tabs-sec .slick-prev {
+        right: 125px !important;
+        top: 108%;
+    }
+
     .tabs-sec .slick-next {
-        left: 89%;
+        left: 96%;
         top: 109.3%;
     }
 
@@ -270,42 +270,69 @@ h6 {
     }
 
     .settingSlider .slick-next {
-        left: 87%;
+        left: 93%;
+    }
+
+    .settingSlider .slick-prev {
+        right: 168px !important;
     }
 }
 
 @media only screen and (max-width:1399px) {
     .tabs-sec .slick-dots {
-        bottom: -12.1%;
+        bottom: -11.1%;
         width: 10%;
     }
 
     .settingSlider .slick-dots {
-        bottom: -19%;
+        bottom: -18.5%;
     }
 
     .settingSlider .slick-next {
         right: inherit;
-        left: 86%;
-        top: 116%;
+        left: 93%;
+        top: 116.5%;
     }
 
     .settingSlider .slick-prev {
-        right: 82px !important;
+        right: 160px !important;
         left: inherit;
-        top: 116%;
+        top: 116.5%;
     }
 
     .tabs-sec .slick-next {
         right: inherit;
-        left: 89%;
-        top: 109%;
+        left: 95%;
+        top: 109.6%;
     }
 
     .tabs-sec .slick-prev {
-        right: 41px !important;
+        right: 115px !important;
         left: inherit;
-        top: 109%;
+        top: 109.6%;
+    }
+}
+
+
+@media only screen and (max-width:1280px) {
+    .tabs-sec .slick-prev {
+        right: 95px !important;
+        left: inherit;
+        top: 108.3%;
+    }
+
+    .tabs-sec .slick-next {
+        right: inherit;
+        left: 96%;
+        top: 108.3%;
+    }
+
+    .tabs-sec .slick-dots {
+        bottom: -10.1%;
+    }
+
+    .settingSlider .slick-dots {
+        bottom: -19%;
     }
 }
 
@@ -352,6 +379,11 @@ h6 {
     }
 }
 
+@media only screen and (max-width:991px) {
+    .photos_visibility {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 767px) {
     .tabs-sec .slick-dots {

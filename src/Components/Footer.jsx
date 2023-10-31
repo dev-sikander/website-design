@@ -11,14 +11,14 @@ export const Footer = () => {
         <>
             <section className="py-[40px] md:py-[80px] bg-[url('/images/clientimages/client-bg.png')] bg-cover bg-center">
                 <div className="px-[10px] sm:px-[30px]">
-                    <div className="grid grid-cols-12 space-y-8 md:space-y-0">
-                        <div className="col-span-12 md:col-span-5">
+                    <div className="grid grid-cols-12 gap-y-8 lg:gap-y-0">
+                        <div className="col-span-12 lg:col-span-5">
                             <p className='text-[25px] text-white font-bold mb-6'>logo</p>
                             <p className='text-white font-light max-w-[420px] text-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a suscipit odio. Etiam nunc nisl, fermentum quis sagittis non, posuere sit amet diam. Maecenas porttitor, felis vel iaculis volutpat, nibh dolor vulputate ex, nec consectetur dui felis id nisl. </p>
                         </div>
-                        <div className="col-span-12 md:col-span-7">
+                        <div className="col-span-12 lg:col-span-7">
                             <div className="grid grid-cols-12">
-                                <div className="col-span-12 sm:col-span-4">
+                                <div className="col-span-12 md:col-span-4">
                                     <h6 className='text-white font-light text-[20px] mb-6'>Quick Links</h6>
                                     <ul>
                                         <li className='mb-3'>
@@ -48,7 +48,7 @@ export const Footer = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-span-12 sm:col-span-4">
+                                <div className="col-span-12 md:col-span-4">
                                     <h6 className='text-white font-light text-[20px] mb-6'>Services</h6>
                                     <ul>
                                         <li className='mb-3'>
@@ -83,7 +83,7 @@ export const Footer = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-span-12 sm:col-span-4">
+                                <div className="col-span-12 md:col-span-4">
                                     <h6 className='text-white font-light text-[20px] mb-6'>Contact</h6>
                                     <ul>
                                         <li className='mb-8'>

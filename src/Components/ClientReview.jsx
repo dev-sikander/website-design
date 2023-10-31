@@ -30,9 +30,17 @@ export const ClientReview = () => {
                 }
             },
             {
+                breakpoint: 1280,
+                settings: {
+                    centerPadding: '100px',
+                    slidesToShow: 1,
+                }
+            },
+            {
                 breakpoint: 1025,
                 settings: {
                     centerPadding: '100px',
+                    dots: false,
                 }
             },
             {
@@ -50,8 +58,8 @@ export const ClientReview = () => {
     // slider end 
 
     return (
-        <section className="bg-[url('/images/clientimages/client-bg.png')] bg-cover bg-center py-[70px] lg:py-[120px] relative">
-            <div className="px-[10px] sm:px-[30px] mb-[30px]">
+        <section className="bg-[url('/images/clientimages/client-bg.png')] bg-cover bg-center pt-[70px] md:py-[70px] lg:py-[120px] relative">
+            <div className="px-[10px] sm:px-[30px] sm:mb-[30px]">
                 <div className="grid grid-cols-12">
                     <div className="col-span-12 lg:col-span-5">
                         <h3 className='text-[25px] md:text-[40px] text-white'>Our Client`s Review</h3>
@@ -61,11 +69,11 @@ export const ClientReview = () => {
                 </div>
             </div>
             <div className="grid grid-cols-12">
-                <div className="col-span-12 mt-5 w-full">
-                    <Slider {...settings} className='settingSlider mt-8'>
+                <div className="col-span-12 lg:mt-5 w-full">
+                    <Slider {...settings} className='settingSlider lg:mt-8'>
                         <div className="">
-                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[30vh] md:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative'>
+                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] pt-[40px] pb-[20px] sm:py-[40px] sm:max-h-[536px]">
+                                <div className='w-full sm:w-[38%] h-[20vh] sm:h-[30vh] md:h-[47vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative pb-3 sm:pb-0'>
                                     <Image quality={80} src={Logo} />
                                     <div className="txt mt-8">
                                         <Image quality={80} src={Particle} className='absolute 2xl:bottom-[-21%] 3xl:right-[19px] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain md:visible invisible' />
@@ -87,7 +95,7 @@ export const ClientReview = () => {
                                 before:bg-[#ffffff] before:content-[''] before:h-[155px] before:opacity-0 before:absolute before:top-[-60%] before:w-[80px]
                                 before:rotate-[30deg] before:ease-in before:duration-500 bg-gradient-to-l from-[#45E2A1] to-[#237456] py-3 px-5 rounded-[3px]
                                 text-black text-[14px] lg:text-[15px]
-                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-6/12">
+                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-10/12 xl:w-6/12">
                                             Read Customer Story
                                         </Link>
                                     </div>
@@ -96,8 +104,8 @@ export const ClientReview = () => {
                             </div>
                         </div>
                         <div className="">
-                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[30vh] md:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative'>
+                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] pt-[40px] pb-[20px] sm:py-[40px] sm:max-h-[536px]">
+                                <div className='w-full sm:w-[38%] h-[20vh] sm:h-[30vh] md:h-[47vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative pb-3 sm:pb-0'>
                                     <Image quality={80} src={Logo} />
                                     <div className="txt mt-8">
                                         <Image quality={80} src={Particle} className='absolute 2xl:bottom-[-21%] 3xl:right-[19px] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain md:visible invisible' />
@@ -119,7 +127,7 @@ export const ClientReview = () => {
                                 before:bg-[#ffffff] before:content-[''] before:h-[155px] before:opacity-0 before:absolute before:top-[-60%] before:w-[80px]
                                 before:rotate-[30deg] before:ease-in before:duration-500 bg-gradient-to-l from-[#45E2A1] to-[#237456] py-3 px-5 rounded-[3px]
                                 text-black text-[14px] lg:text-[15px]
-                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-6/12">
+                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-10/12 xl:w-6/12">
                                             Read Customer Story
                                         </Link>
                                     </div>
@@ -127,8 +135,8 @@ export const ClientReview = () => {
                             </div>
                         </div>
                         <div className="">
-                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[30vh] md:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative'>
+                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] pt-[40px] pb-[20px] sm:py-[40px] sm:max-h-[536px]">
+                                <div className='w-full sm:w-[38%] h-[20vh] sm:h-[30vh] md:h-[47vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative pb-3 sm:pb-0'>
                                     <Image quality={80} src={Logo} />
                                     <div className="txt mt-8">
                                         <Image quality={80} src={Particle} className='absolute 2xl:bottom-[-21%] 3xl:right-[19px] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain md:visible invisible' />
@@ -150,7 +158,7 @@ export const ClientReview = () => {
                                 before:bg-[#ffffff] before:content-[''] before:h-[155px] before:opacity-0 before:absolute before:top-[-60%] before:w-[80px]
                                 before:rotate-[30deg] before:ease-in before:duration-500 bg-gradient-to-l from-[#45E2A1] to-[#237456] py-3 px-5 rounded-[3px]
                                 text-black text-[14px] lg:text-[15px]
-                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-6/12">
+                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-10/12 xl:w-6/12">
                                             Read Customer Story
                                         </Link>
                                     </div>
@@ -158,8 +166,8 @@ export const ClientReview = () => {
                             </div>
                         </div>
                         <div className="">
-                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] py-[40px] sm:max-h-[536px]">
-                                <div className='w-full sm:w-[38%] h-[30vh] md:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative'>
+                            <div className="bg-[#1B1C1D] sm:flex items-center px-[20px] pt-[40px] pb-[20px] sm:py-[40px] sm:max-h-[536px]">
+                                <div className='w-full sm:w-[38%] h-[20vh] sm:h-[30vh] md:h-[47vh] lg:h-[35vh] xl:h-[52vh] 3xl:h-[40vh] flex items-start flex-col justify-between relative pb-3 sm:pb-0'>
                                     <Image quality={80} src={Logo} />
                                     <div className="txt mt-8">
                                         <Image quality={80} src={Particle} className='absolute 2xl:bottom-[-21%] 3xl:right-[19px] 2xl:right-[35px] bottom-[-12%] right-[35px] max-h-[340px] object-contain md:visible invisible' />
@@ -181,7 +189,7 @@ export const ClientReview = () => {
                                 before:bg-[#ffffff] before:content-[''] before:h-[155px] before:opacity-0 before:absolute before:top-[-60%] before:w-[80px]
                                 before:rotate-[30deg] before:ease-in before:duration-500 bg-gradient-to-l from-[#45E2A1] to-[#237456] py-3 px-5 rounded-[3px]
                                 text-black text-[14px] lg:text-[15px]
-                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-6/12">
+                               overflow-hidden font-medium poppins mb-3 sm:mb-0 flex items-center justify-center w-10/12 xl:w-6/12">
                                             Read Customer Story
                                         </Link>
                                     </div>

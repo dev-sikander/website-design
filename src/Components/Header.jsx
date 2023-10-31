@@ -16,7 +16,7 @@ function Header() {
                 <div className="px-[10px] sm:px-[30px] border-b border-[#A2A2A2] mx-[30px]">
                     <div className="flex justify-between items-center pt-6 pb-6 lg:pb-8 lg:justify-start">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
-                            <Link href="#">
+                            <Link href="/">
                                 <span className="text-[30px] font-bold poppins text-white">logo</span>
                             </Link>
 
@@ -24,7 +24,7 @@ function Header() {
                         <div className="-mr-2 -my-2 lg:hidden">
                             <button
                                 type="button"
-                                className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                                className="bg-transparent border-2 border-white rounded-md p-1 inline-flex items-center justify-center text-white hover:text-gray-50 focus:outline-none"
                                 onClick={() => setOpen(!open)}
                             >
                                 <span className="sr-only">Open menu</span>
@@ -111,7 +111,7 @@ function Header() {
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5 relative z-[9999999]">
                                 <div className="flex items-center justify-between">
-                                    <Link href="#">
+                                    <Link href="/">
                                         <span className="text-[30px] font-bold poppins text-black">logo</span>
                                     </Link>
                                     <div className="-mr-2">
